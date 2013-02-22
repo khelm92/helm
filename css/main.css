@@ -1,8 +1,21 @@
 body{
-    width: 790px;
+    max-width: 790px;
     margin: 0 auto;
-    background-color: #D97000;
+    background-color: #FCAE5B;
     font-family: 'Roboto Condensed', sans-serif;
+    font: 100%;
+}
+
+#wrapper{
+    width: 100%; /* 730px */
+    margin: 0 auto;
+    padding-left: 4.109589%; /* 30px */
+    overflow: hidden;
+    background: #D97000;  
+}
+
+article{
+    width: 91.780822%; /* 670px */
 }
 
 #top{
@@ -18,7 +31,7 @@ body{
     color: #FCAE5B;
 }
 
-article{
+#columns{
     -moz-column-count: 3;
 }
 
@@ -50,4 +63,13 @@ ul.c{
 .links:hover{
     color: #FCAE5B;
     text-decoration: none;
+}
+
+.pic{
+    border: 3px solid #FCAE5B;
+    width: 35.616438%;
+}
+
+img{
+    max-width: 100%;
 }
