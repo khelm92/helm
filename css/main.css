@@ -73,3 +73,20 @@ ul.c{
 img{
     max-width: 100%;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px dashed #000;
+    background-color: #FCAE5B;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td{
+    border: 1px dashed #FCAE5B;
+    padding: 10px;
+}
