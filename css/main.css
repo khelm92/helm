@@ -1,0 +1,83 @@
+#top{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px #4B509C;
+    color: #013668;
+}
+
+h2{
+   font-family: 'Gabriela', serif;
+   color: #013668;
+}
+
+body{
+    width: 780px;
+    margin: 0 auto;
+    font-family: 'Sintony', sans-serif;
+    background-color: #276EA1;
+}
+
+#columns{
+    -moz-column-count: 3;
+}
+
+.links:link{
+    color: #212991;
+}
+
+.links:hover{
+    color: #fff;
+    background: #013668;
+}
+
+.nav{
+    list-style-type: none;
+    width: 750px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#gallery{
+    list-style-type: none;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery{
+    float: left;
+    margin: 0 10px;
+}
+
+#factslist{
+    list-style-type: circle;
+}
+
+#button{
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 40px;
+    background: #013668;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #4C7DA1;
+}
+
+.links{
+    width: 250px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+p{
+    clear: left;
+}
+

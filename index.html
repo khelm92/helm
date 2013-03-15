@@ -3,6 +3,10 @@
     
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:700,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
         <title>Pepsi Cola</title>
     </head>
         <body>
@@ -10,10 +14,10 @@
                     <h1><a id="top">Pepsi-Cola Fanpage</a></h1>
                     
                     <nav>
-                        <ul>
-                            <li><a href="#history">Pepsi History</a></li>
-                            <li><a href="#facts">Interesting Facts</a></li>
-                            <li><a href="#logos">Logos Through the Years</a></li>
+                        <ul class="nav">
+                            <li><a class="links" href="#history">Pepsi History</a></li>
+                            <li><a class="links" href="#facts">Interesting Facts</a></li>
+                            <li><a class="links" href="#logos">Logos Through the Years</a></li>
                         </ul>
                     </nav>
                     
@@ -24,7 +28,7 @@
                 </header>
                    
                 <h2><a id="history">Pepsi History</a></h2>
-                <article>
+                <article id="columns">
                         <p>Pepsi was first introduced as "Brad's Drink" in New Bern, North Carolina, United States, in 1893 by Caleb Bradham, who made it at his drugstore where the drink was sold.
                         It was later labeled Pepsi Cola, named after the digestive enzyme pepsin and kola nuts used in the recipe. Bradham sought to create a fountain drink that was delicious and
                         would aid in digestion and boost energy.</p>
@@ -43,7 +47,7 @@
                 <section>
                     <h2><a id="facts">Interesting Facts:</a></h2>
                         <article>
-                        <ul>
+                        <ul id="factslist">
                             <li>Pepsi was founded in 1898 by Caleb Bradham, a pharmacist from North Carolina, USA.</li>
                             <li>Celebrities such as Michael Jackson, Pink, Beyonce, Britney Spears, Enrique Iglesias, David Beckham and the X factor judges have all endorsed the Pepsi brand.</li>
                             <li>The Pepsi logo has changed many times throughout the years but the original logo was designed by founder Caleb Bradham using a scribbled, handwritten logo script.</li>
@@ -58,16 +62,17 @@
                 
                 <section>
                     <h2><a id="logos">Logos Through the Years</a></h2>
-                        <ul>
-                            <li><img src="images/pepsi1898.jpg" alt="1898 logo" title="1898 logo"></li>
-                            <li><img src="images/pepsi1906.jpg" alt="1906 logo" title="1906 logo"></li>
-                            <li><img src="images/pepsi1941.jpg" alt="1941 logo" title="1941 logo"></li>
-                            <li><img src="images/pepsi1962.jpg" alt="1962 logo" title="1962 logo"></li>
-                            <li><img src="images/pepsi1973.jpg" alt="1973 logo" title="1973 logo"></li>
-                            <li><img src="images/pepsi1991.jpg" alt="1991 logo" title="1991 logo"></li>
+                        <ul id="gallery">
+                           <!-- <li><img src="images/pepsi1898.jpg" alt="1898 logo" title="1898 logo"></li> 
+                            <li><a class="gallery"><img src="images/pepsi1906.jpg" alt="1906 logo" title="1906 logo"></a></li> -->
+                            <li><a class="gallery"><img src="images/pepsi1941.jpg" alt="1941 logo" title="1941 logo"></a></li>
+                            <li><a class="gallery"><img src="images/pepsi1962.jpg" alt="1962 logo" title="1962 logo"></a></li>
+                            <li><a class="gallery"><img src="images/pepsi1973.jpg" alt="1973 logo" title="1973 logo"></a></li>
+                            <!-- <li><img src="images/pepsi1991.jpg" alt="1991 logo" title="1991 logo"></li>
                             <li><img src="images/pepsi1998.jpg" alt="1998 logo" title="1998 logo"></li>
                             <li><img src="images/pepsi2005.jpg" alt="2005 logo" title="2005 logo"></li>
-                            <li><img src="images/pepsinow.jpg" alt="current logo" title="current logo"></li>
+                            <li><img src="images/pepsinow.jpg" alt="current logo" title="current logo"></li> -->
+                            <!-- will add removed images back in next week, removed to practice floating images -->
                         </ul>
                 </section>
                 
@@ -79,7 +84,7 @@
                 </aside>
                 
                 <footer>
-                    <a href="#top">Go to Top</a>
+                    <a id="button" href="#top">Sign Up!</a> 
                     <p>Kasey Helm &copy; 2013</p>
                 </footer>
             
