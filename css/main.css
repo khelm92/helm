@@ -1,9 +1,4 @@
-#top{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 50px;
-    text-shadow: 2px 2px #4B509C;
-    color: #013668;
-}
+
 
 h2{
    font-family: 'Gabriela', serif;
@@ -17,11 +12,30 @@ body{
     background-color: #276EA1;
 }
 
+#wrapper{
+    width: 100%; /*780px*/
+    margin: 0 auto;
+    background-color: #276EA1;
+    padding: 0 15px;
+}
+
+#top{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px #4B509C;
+    color: #013668;
+}
+
 #columns{
     -moz-column-count: 3;
+    width: 100%;
 }
 
 .links:link{
+    color: #212991;
+}
+
+.links:visited{
     color: #212991;
 }
 
@@ -32,7 +46,7 @@ body{
 
 .nav{
     list-style-type: none;
-    width: 750px;
+    width: 96.153846%;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -40,7 +54,7 @@ body{
 
 #gallery{
     list-style-type: none;
-    width: 800px;
+    width: 780px;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -48,7 +62,7 @@ body{
 
 .gallery{
     float: left;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 #factslist{
@@ -79,5 +93,6 @@ body{
 
 p{
     clear: left;
+    font-size: 1.0em;
 }
 
