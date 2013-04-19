@@ -4,6 +4,9 @@
     
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
         <title>Dogs</title>
     </head>
         <body>
@@ -12,9 +15,9 @@
                     
                     <nav>
                         <ul class="nav">
-                            <li><a href="#history">History of Dogs</a></li>
-                            <li><a href="#facts">Interesting Facts</a></li>
-                            <li><a href="#pics">Gallery</a></li>
+                            <li><a class="links" href="#history">History of Dogs</a></li>
+                            <li><a class="links" href="#facts">Interesting Facts</a></li>
+                            <li><a class="links" href="#gallery">Gallery</a></li>
                         </ul>
                     </nav>
                     
@@ -25,7 +28,7 @@
                 </header>
                    
                 <h2><a id="history">History of Dogs</a></h2>
-                <article>
+                <article id="columns">
                         <p>The domestic dog <em>(Canis lupus familiaris)</em> is a subspecies of the gray wolf <em>(Canis lupus)</em>, a member of the Canidae family of the mammalian order Carnivora.
                         The term "domestic dog" is generally used for both domesticated and feral varieties. The dog has been the first animal to be domesticated and has been the most
                         widely kept working, hunting, and pet animal in human history.</p>
@@ -46,7 +49,7 @@
                 <section>
                     <h2><a id="facts">Interesting Facts:</a></h2>
                         <article>
-                            <ul>
+                            <ul class="ulcircle">
                                 <li>A dogs normal body temperature is 100.5 to 102.5 degrees Fahrenheit.</li>
                                 <li>The longest lived dog, according to the Guinness Book of World Records, was an Australian Cattle Dog, named Bluey, who lived to be 29.</li>
                                 <li>It is a myth that dogs are color blind. They can actually see in color, just not as vividly as humans.</li>
@@ -60,12 +63,12 @@
                 </section>
                 
                 <section>
-                    <h2><a id="pics">Dog Gallery</a></h2>
-                        <ul>
-                            <li><img src="images/corgi.jpg" height="150px" width="200px" alt="Corgi" title="Corgi"></li>
-                            <li><img src="images/shepherd.jpg" height="150px" width="200px" alt="German Shepherd" title="German Shepherd"></li>
-                            <li><img src="images/husky.jpg" height="150px" width="200px" alt="Siberian Husky" title="Siberian Husky"></li>
-                            <li><img src="images/retriever.jpg" height="150px" width="200px" alt="Golden Retriever" title="Golden Retriever"></li>
+                    <h2><a id="gallery">Dog Gallery</a></h2>
+                        <ul id="pics">
+                            <li><a class="pics"><img src="images/corgi.jpg" height="150" width="200" alt="Corgi" title="Corgi"></a></li>
+                            <li><a class="pics"><img src="images/shepherd.jpg" height="150" width="200" alt="German Shepherd" title="German Shepherd"></a></li>
+                            <li><a class="pics"><img src="images/husky.jpg" height="150" width="200" alt="Siberian Husky" title="Siberian Husky"></a></li>
+                            <li><a class="pics"><img src="images/retriever.jpg" height="150" width="200" alt="Golden Retriever" title="Golden Retriever"></a></li>
                         </ul>
                 </section>
                 
@@ -76,7 +79,8 @@
                     <!-- Sign up form and call to action will go here-->
                 </aside>
                 
-                <footer> 
+                <footer>
+                    <a id="button" href="#top">Go to Top</a>
                     <p>Kasey Helm &copy; 2013</p>
                 </footer>
         </body>
