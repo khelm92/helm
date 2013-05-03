@@ -108,6 +108,41 @@ p{
     border: solid 1px #8A0101;
 }
 
+table{
+    border-collapse: collapse;
+    margin: 5%;
+}
+
+th{
+    border: 2px dashed #5E0000;
+    text-align: left;
+    background-color: #CFA47E;
+    padding: 5px;
+}
+
+td{
+    border: 2px solid #5E0000;
+    padding: 5px;
+}
+
+.accesstble{
+    background-color: #CFA47E;
+}
+
+form{
+    margin: 5%;
+    line-height: 1.7em;
+    width: 33.333333%; /*320px;*/
+}
+
+input{
+    float: right;
+}
+
+select{
+    float: right;
+}
+
 /* -------media queries--------- */
 
 @media screen and (min-width: 768px) and (max-width: 959px){
@@ -126,6 +161,7 @@ p{
     
     body{
         font-size: .9em;
+        background-image: none;
     }
     
 }
@@ -161,6 +197,7 @@ p{
     
     body{
         font-size: .8em;
+        background-image: none;
     }
     
 }
@@ -196,6 +233,7 @@ p{
     
     body{
         font-size: .75em;
+        background-image: none;
     }
 }
 
